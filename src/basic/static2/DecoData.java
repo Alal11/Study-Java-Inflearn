@@ -21,6 +21,12 @@ public class DecoData {
         staticMethod();  // 정적 메서드 접근
     }
 
+    // 정적 메서드라도 외부에서 참조값을 넘겨받아서 인스턴스 변수나 메서드에 접근하는건 가능!
+    public static void staticCall(DecoData data) {
+        data.instanceValue++;
+        data.instanceMethod();
+    }
+
     private void instanceMethod() {
         System.out.println("instanceValue = " + instanceValue);
     }
