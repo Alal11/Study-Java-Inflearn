@@ -1,4 +1,4 @@
-package basic.Poly.overriding;
+package basic.poly.overriding;
 
 public class Child extends Parent {
 
