@@ -1,4 +1,4 @@
-package basic.Poly.basic;
+package basic.poly.basic;
 
 public class Child extends Parent {
 
