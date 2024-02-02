@@ -1,4 +1,4 @@
-package basic.Poly.basic;
+package basic.poly.basic;
 
 // upcasting vs downcasting
 public class CastingMain3 {
